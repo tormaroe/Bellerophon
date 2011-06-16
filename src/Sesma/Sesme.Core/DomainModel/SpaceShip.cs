@@ -17,6 +17,8 @@ namespace Sesme.Core.DomainModel
 
         public SpaceShip(IEnumerable<SpaceShipItem> items) : base(items) { }
         
+        // Possibly move the CurrentItem / Subscribe stuff to an application service
+
         private SpaceShipItem _currentItem;
         public SpaceShipItem CurrentItem
         {
