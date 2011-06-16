@@ -10,7 +10,7 @@ This is a learning / demo application, experimenting with and showing off
 It is also my first try at using some new .NET 4 features, like 
 
 * DynamicObject
-* IObservable<T> / IObserver<T>
+* IObservable&lt;T&gt; / IObserver&lt;T&gt;
 * code contracts
 
 *Project status: Just started..*
