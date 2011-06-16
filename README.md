@@ -1,3 +1,5 @@
+![SESME](http://game-server-hosting.net/wp-content/uploads/2008/12/Infinite%20space%203.PNG)
+
 # SESMA: Script enabled starship management application
 
 This is a learning / demo application, experimenting with and showing off how to embed the Dynamic Language Runtime in a .NET application and thereby making it scriptable.
