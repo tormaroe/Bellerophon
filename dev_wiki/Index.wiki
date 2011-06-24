@@ -34,7 +34,7 @@ Bruk WebBrowser med ajax page for eventlogg
 
 Unlock abilities???
 
-Lag en egen webside for spillet, med video-teaser, one click install link, comments etc.
+Lag en egen webside for spillet, med video-teaser, one click install link, comments etc. Maybe use github pages?
 
 The Space Battle game for Programmers
 
