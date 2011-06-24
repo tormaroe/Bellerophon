@@ -1,3 +1,3 @@
 #Bellerophon
 
-Copyright (c) 2011 Torbjørn Marø
+Copyright (c) 2011 Torbj&oslash;rn Mar&oslash;
