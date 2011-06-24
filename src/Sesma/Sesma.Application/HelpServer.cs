@@ -46,7 +46,7 @@ namespace Sesma.Application
                     var encoding = context.Request.ContentEncoding;
                     var page = url.AbsolutePath.Substring(1); // TODO UrlDecode
 
-                    Respond(context, encoding, HelpPages.GetPage(page));
+                    Respond(context, encoding, HelpPageExtractor.GetPage(page));
                 }
                 catch
                 {

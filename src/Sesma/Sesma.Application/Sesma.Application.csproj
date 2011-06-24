@@ -116,7 +116,8 @@
     <EmbeddedResource Include="Situation.resx">
       <DependentUpon>Situation.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="HelpPages\index.md" />
+    <EmbeddedResource Include="HelpPages\index.md" />
+    <EmbeddedResource Include="HelpPages\training_sims.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

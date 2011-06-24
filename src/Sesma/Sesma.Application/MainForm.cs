@@ -14,6 +14,14 @@ namespace Sesma.Application
         public MainForm()
         {
             InitializeComponent();
+
+            helpControl.Load("index.md");
+        }
+
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            base.OnClosing(e);
+            Program.Stop();
         }
     }
 }

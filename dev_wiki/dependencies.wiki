@@ -1,7 +1,13 @@
 ==Dependencies==
 
 ===Jint===
-* MIT License
+Jint is a script engine based on the Javascript language. Using Jint, developers can provide fully scriptable applications, execute .NET code without compiling, or create external configuration logic, using the most used script language.
+
+* Uses MIT License
+* http://jint.codeplex.com/
 
 ===MarkdownSharp===
+Open source C# implementation of Markdown processor.
+
 * MIT License
+* http://code.google.com/p/markdownsharp/

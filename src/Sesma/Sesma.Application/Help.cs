@@ -15,5 +15,10 @@ namespace Sesma.Application
         {
             InitializeComponent();
         }
+
+        public void Load(string page)
+        {
+            this.webBrowser1.Navigate("http://127.0.0.1:8123/" + page);
+        }
     }
 }
