@@ -15,7 +15,7 @@ namespace Sesma.Application
         {
             InitializeComponent();
 
-            helpControl.Load("index.md");
+            helpControl.LoadPage("index.md");
         }
 
         protected override void OnClosing(CancelEventArgs e)

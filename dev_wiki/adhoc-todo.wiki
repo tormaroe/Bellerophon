@@ -1,7 +1,7 @@
 ==Ad-hoc todo list==
 
 * [X] Find apropriate license and add it to repo
-* [ ] Find a good starship name, rename project and clean up REAME
+* [X] Find a good starship name, rename project and clean up REAME
 
 
 ==See also==

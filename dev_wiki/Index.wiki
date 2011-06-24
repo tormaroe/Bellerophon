@@ -4,25 +4,10 @@
 
 * [[adhoc-todo]]
 * [[dependencies]]
+* TheStory
 
 ===Notes===
 
-You are the captain and only crew of XXX, the finest interstellar battleship 
-the humans have ever made.
-
-The survival of the human race depends on your ability to engage the alien 
-enemies in cosmic battle.
-
-The survival of the our race depends on your ability to sling code.
-
-JavaScipt .. the last programming language .. what everyone could agree on ..
-
-The battleship is controlled by writing and executing scripts - tiny programs...
-
-The humans were forced to ... when they were discovered by hostile aliens. Now
-they are engaged in an epic war, and the humans are loosing.
-
-In the uninhabitet YYY system the humans have constructed their last hope of ...
 
 
 Training simulations:
