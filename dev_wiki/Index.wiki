@@ -1,0 +1,60 @@
+==Developers Wiki==
+
+===Menu===
+
+* [[adhoc-todo]]
+* [[dependencies]]
+
+===Notes===
+
+You are the captain and only crew of XXX, the finest interstellar battleship 
+the humans have ever made.
+
+The survival of the human race depends on your ability to engage the alien 
+enemies in cosmic battle.
+
+The survival of the our race depends on your ability to sling code.
+
+JavaScipt .. the last programming language .. what everyone could agree on ..
+
+The battleship is controlled by writing and executing scripts - tiny programs...
+
+The humans were forced to ... when they were discovered by hostile aliens. Now
+they are engaged in an epic war, and the humans are loosing.
+
+In the uninhabitet YYY system the humans have constructed their last hope of ...
+
+
+Training simulations:
+* Activate ship (power core) and engage main (in-system) drive
+* Hull breach and systems failure - deploy bots
+* Ship on ship combat
+
+Main game, chapters:
+* Activate ship, engage FTL and fly to Sol system
+* Engage and destroy enemy ships
+* Receive location of enemy system
+* Travel there and destroy their planet
+
+Bruk MEF til å loade spill-pakker. Inneholder:
+* Start-state
+* Mission documentation (Briefing), dynamic goal list
+* "Rules" / events
+
+Concept: Ship time
+
+Wiki: 1) Ship API, 2) Mission wiki
+
+Bruk WebBrowser med ajax page for eventlogg
+
+Unlock abilities???
+
+Lag en egen webside for spillet, med video-teaser, one click install link, comments etc.
+
+The Space Battle game for Programmers
+
+
+http://stackoverflow.com/questions/804337/a-hacking-game-for-programmers
+http://www.introversion.co.uk/uplink/
+http://www.overthewire.org/wargames/
+

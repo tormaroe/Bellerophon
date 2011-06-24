@@ -1,0 +1,1 @@
+﻿#SESMA MANUAL
