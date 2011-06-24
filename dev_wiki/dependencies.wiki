@@ -1,4 +1,7 @@
 ==Dependencies==
 
+===Jint===
+* MIT License
+
 ===MarkdownSharp===
 * MIT License
