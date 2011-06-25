@@ -14,6 +14,12 @@ namespace Sesma.Application
         public Situation()
         {
             InitializeComponent();
+
+               
+            powerMeter.MaxLevel = 100;
+            powerMeter.CurrentLevel = 50;
+
+            stateGrid.InitializeLightbulbs(5, 53);
         }
     }
 }

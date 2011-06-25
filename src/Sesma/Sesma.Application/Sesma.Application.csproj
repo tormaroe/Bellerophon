@@ -53,6 +53,8 @@
     <Reference Include="MarkdownSharp">
       <HintPath>..\..\..\lib\MarkdownSharp\MarkdownSharp\bin\Release\MarkdownSharp.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -92,6 +94,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\PowerMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PowerMeter.Designer.cs">
+      <DependentUpon>PowerMeter.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\ScriptsList.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -103,6 +111,12 @@
     </Compile>
     <Compile Include="UserControls\Situation.Designer.cs">
       <DependentUpon>Situation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\StateGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\StateGrid.Designer.cs">
+      <DependentUpon>StateGrid.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="UserControls\EventLog.resx">
       <DependentUpon>EventLog.cs</DependentUpon>
@@ -126,6 +140,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControls\PowerMeter.resx">
+      <DependentUpon>PowerMeter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\ScriptsList.resx">
       <DependentUpon>ScriptsList.cs</DependentUpon>
     </EmbeddedResource>
