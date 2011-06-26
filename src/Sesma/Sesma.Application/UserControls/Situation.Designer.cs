@@ -34,6 +34,7 @@
             // 
             // stateGrid
             // 
+            this.stateGrid.BackColor = System.Drawing.SystemColors.Control;
             this.stateGrid.Location = new System.Drawing.Point(6, 222);
             this.stateGrid.Name = "stateGrid";
             this.stateGrid.Size = new System.Drawing.Size(126, 23);
@@ -56,7 +57,7 @@
             this.Controls.Add(this.stateGrid);
             this.Controls.Add(this.powerMeter);
             this.Name = "Situation";
-            this.Size = new System.Drawing.Size(293, 236);
+            this.Size = new System.Drawing.Size(293, 251);
             this.ResumeLayout(false);
 
         }

@@ -15,6 +15,8 @@ namespace Sesme.Core.DomainModel
 
         private List<IObserver<SpaceShipItem>> _observers = new List<IObserver<SpaceShipItem>>();
 
+        public Battery Battery { get; set; }
+        public PowerPlant PowerSource { get; set; }
         public SpaceShip(IEnumerable<SpaceShipItem> items) : base(items) { }
         
         // Possibly move the CurrentItem / Subscribe stuff to an application service

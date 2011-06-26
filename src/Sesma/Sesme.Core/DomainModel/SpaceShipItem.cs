@@ -7,6 +7,12 @@ using System.Diagnostics.Contracts;
 
 namespace Sesme.Core.DomainModel
 {
+
+    public enum Power
+    {
+        On,
+        Off
+    }
     public class SpaceShipItem : DynamicObject
     {
         private Dictionary<string, object> _properties = new Dictionary<string, object>();
@@ -26,6 +32,8 @@ namespace Sesme.Core.DomainModel
 
         public Guid Id { get; private set; }
         public ItemCategory Category { get; private set; }
+        public int PowerConsumption { get; set; }
+        public Power State { get; set; }
         public string Description { get; private set; }
 
         public override bool TryGetMember(GetMemberBinder binder, out object result)

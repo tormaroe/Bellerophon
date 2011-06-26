@@ -46,11 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DomainModel\GameEngine_Spec.cs" />
     <Compile Include="DomainModel\ItemCategory.cs" />
+    <Compile Include="DomainModel\PowerPlant.cs" />
     <Compile Include="DomainModel\SpaceShip.cs" />
     <Compile Include="DomainModel\SpaceShipItem.cs" />
     <Compile Include="DomainModel\SpaceShipItem_Spec.cs" />
     <Compile Include="DomainModel\SpaceShip_Spec.cs" />
+    <Compile Include="DomainModel\Battery.cs" />
+    <Compile Include="DomainModel\GameEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
