@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="DomainModel\GameEngine_Spec.cs" />
     <Compile Include="DomainModel\ItemCategory.cs" />
+    <Compile Include="DomainModel\PowerConsumptionTooHighException.cs" />
     <Compile Include="DomainModel\PowerPlant.cs" />
     <Compile Include="DomainModel\SpaceShip.cs" />
     <Compile Include="DomainModel\SpaceShipItem.cs" />

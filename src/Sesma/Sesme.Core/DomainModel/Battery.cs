@@ -8,6 +8,13 @@ namespace Sesme.Core.DomainModel
     public class Battery
     {
         private int _Charge;
+
+        /// <summary>
+        /// Gets or sets current charge. 
+        /// If new value is higher than MaxCharge, MaxCharge will become the current value.
+        /// If new value is below zero, the new charge will be zero, and a 
+        /// PowerConsumptionTooHighException will be thrown.
+        /// </summary>
         public int Charge
         {
             get
@@ -16,10 +23,17 @@ namespace Sesme.Core.DomainModel
             }
             set
             {
-                if (0 > _Charge || _Charge > MaxCharge)
-                    throw new ArgumentOutOfRangeException(
-                        "Charge must not be lower then zero or higher than max charge.");
-                _Charge = value;
+                if (value > MaxCharge)
+                    _Charge = MaxCharge;
+                else
+                {
+                    if (value < 0)
+                    {
+                        _Charge = 0;
+                        throw new PowerConsumptionTooHighException { ExcessConsumption = value * -1 };
+                    }
+                    _Charge = value;
+                }
             }
         }
         public int MaxCharge { get; set; }

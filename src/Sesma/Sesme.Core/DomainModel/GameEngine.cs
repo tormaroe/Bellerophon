@@ -19,8 +19,15 @@ namespace Sesme.Core.DomainModel
         {
             var totalConsumption = (from item in Ship
                                     where item.State == Power.On
-                                    select item.PowerConsumption).Sum(); 
-            Ship.Battery.Charge += Ship.PowerSource.Output - totalConsumption;               
+                                    select item.PowerConsumption).Sum();
+            try
+            {
+                Ship.Battery.Charge += Ship.PowerSource.Output - totalConsumption;
+            }
+            catch (PowerConsumptionTooHighException ex)
+            {
+                //TODO: use ex.ExcessConsumption to cause power-failure in some items
+            }
         }
 
     }

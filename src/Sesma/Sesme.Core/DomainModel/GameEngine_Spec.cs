@@ -56,6 +56,8 @@ namespace Sesme.Core.DomainModel
             engine.Ship.Battery.Charge.ShouldEqual(expectedCharge);
 
             engine.Time.ShouldEqual(3);
+
+            
         }
     }
 }
