@@ -94,11 +94,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\MeterBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MeterBox.Designer.cs">
+      <DependentUpon>MeterBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\PowerMeter.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControls\PowerMeter.Designer.cs">
       <DependentUpon>PowerMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ScriptControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ScriptControl.Designer.cs">
+      <DependentUpon>ScriptControl.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\ScriptsList.cs">
       <SubType>UserControl</SubType>
@@ -118,6 +130,7 @@
     <Compile Include="UserControls\StateGrid.Designer.cs">
       <DependentUpon>StateGrid.cs</DependentUpon>
     </Compile>
+    <Compile Include="WikiPage.cs" />
     <EmbeddedResource Include="UserControls\EventLog.resx">
       <DependentUpon>EventLog.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,8 +153,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserControls\MeterBox.resx">
+      <DependentUpon>MeterBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\PowerMeter.resx">
       <DependentUpon>PowerMeter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ScriptControl.resx">
+      <DependentUpon>ScriptControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\ScriptsList.resx">
       <DependentUpon>ScriptsList.cs</DependentUpon>

@@ -102,9 +102,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 2);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Power";
+            this.label1.Text = "Battery";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PowerMeter

@@ -19,6 +19,9 @@ namespace Sesma.Application
             powerMeter.MaxLevel = 100;
             powerMeter.CurrentLevel = 50;
 
+            powerOutputMeter.SetLabel("Output");
+            powerConsumptionMeter.SetLabel("Usage");
+
             stateGrid.InitializeLightbulbs(5, 53);
         }
     }

@@ -15,7 +15,7 @@ namespace Sesma.Application
     {
         public static string GetPage(string page)
         {
-            return new Markdown().Transform(GetMarkdown(page));
+            return WikiPage.Wrap(new Markdown().Transform(GetMarkdown(page)));
         }
 
         private static string GetMarkdown(string page)
